@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1024"
+       height="1024"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient8"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffa200;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+      <stop
+         style="stop-color:#00a2f0;stop-opacity:1;"
+         offset="1"
+         id="stop9" />
+    </linearGradient>
+    <rect
+       x="24.385292"
+       y="434.0582"
+       width="292.6235"
+       height="414.54999"
+       id="rect5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8"
+       id="linearGradient16"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.7563134,-5.8872417e-8,-7.6911213e-8,2.7931788,355.10346,-13.750536)"
+       x1="-167.67276"
+       y1="-211.52153"
+       x2="437.64731"
+       y2="509.87085" />
+  </defs>
+  <rect
+     style="display:inline;opacity:1;fill:#00a2f0;fill-opacity:1;stroke-width:1.01575"
+     id="rect1"
+     width="1024"
+     height="1024"
+     x="2.7684746e-06"
+     y="2.9223632e-08" />
+  <ellipse
+     style="display:inline;opacity:1;fill:url(#linearGradient16);stroke-width:2.25375"
+     id="ellipse14"
+     cx="592.18347"
+     cy="402.92075"
+     rx="826.9696"
+     ry="781.63336"
+     transform="matrix(0.94893082,-0.31548422,0.88807236,0.45970369,0,0)"
+     inkscape:label="RED" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-4.5163593)">
+    <g
+       id="g7"
+       transform="matrix(1.3363826,0,0,1.8983791,-291.00703,-896.71647)">
+      <text
+         xml:space="preserve"
+         style="font-size:259.11px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:1.29555"
+         x="564.79443"
+         y="827.78418"
+         id="text3"
+         transform="scale(0.83324223,1.2001312)"><tspan
+           x="564.79443"
+           y="827.78418"
+           sodipodi:role="line"
+           style="stroke-width:1.29555"
+           id="tspan6">enån</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1.6402703,0,0,1.5202196,192.41247,-65.223512)"
+         id="text5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:300px;font-family:'Agave Nerd Font Mono';-inkscape-font-specification:'Agave Nerd Font Mono';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);opacity:1;fill:#ffffff;fill-opacity:1"><tspan
+           x="24.384766"
+           y="696.55859"
+           id="tspan1">H</tspan></text>
+    </g>
+  </g>
+  <ellipse
+     style="opacity:1;fill:#f2720e;fill-opacity:1;stroke-width:0.429285"
+     id="path24"
+     cx="28.153128"
+     cy="55.057827"
+     rx="73.153229"
+     ry="58.916752"
+     transform="matrix(0.93288167,-0.360183,0.38261504,0.92390786,0,0)" />
+  <rect
+     style="display:inline;opacity:0;fill:#338000;fill-opacity:1"
+     id="rect24"
+     width="519.01447"
+     height="333.65216"
+     x="-281.061"
+     y="-59.488369" />
+</svg>
