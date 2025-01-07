@@ -2,7 +2,7 @@
 
 ## Numéros Utiles
 
-- 1177 -> Urgence
+- 1177 -> Urgence **pour demander quel hôpital est ouvert en fonction accident**
 - 112 -> Ambulance
 
 ## Evacuation des déchets
@@ -19,7 +19,7 @@
 - Electricité enclenchée toute l'année.
 - Une clé commune pour toutes les maisons du bas; une clé pour chaque appartement du Knarpen.
 - Attention de ne pas chuter dans le précipice (Stup)!
-
+- Pas de papier dans les toilettes
 ## Mise en marche
 
 ### Blatt Hus
@@ -60,11 +60,12 @@
 - Nettoyer le filtre des machines.
 - Nettoyer toute la maison; pas de nourriture ou de linge sale.
 - Contrôler que les fenêtres soient bien fermées.
-- Placer les pièges à souris dans la cuisine.
-- ? alarme ?
+- Placer les pièges à souris dans la cuisine. Les derniers soirs
+- Alarme à souris ( sous le grille pain )
 - Allumer le chauffage en position "2" dans la salle de bain.
-- Antigel dans les toilettes.
+- Antigel dans les toilette évier lavabo.
 - ? ??? les risques de gel dedans ?
+- Purger la machine?
 
 ### Rött Hus
 
@@ -74,7 +75,7 @@
 
 - Nettoyer les deux appartements; pas de nourriture ou de linge sale.
 
-### Eau/Electricité
+### Eau
 
 - Fermer l'alimentation générale; puis ouvrir les robinets à purger.
 
@@ -88,14 +89,14 @@
 
 ### Trädgard
 
-- Rentrer les plantes en pot à l'intérieur de la maison bleue.
-- Purger le tuyau d'arrosage.
+- Rentrer les deux pots à l'intérieur de la maison bleue.
+- Purger le tuyau d'arrosage et mettre dans vedbodden.
 
 ## Chantiers à faire
 
-- [Knarpen] -> fuite d'eau chaude
+- [Knarpen] -> fuite d'eau chaude 
 - [Knarpem] -> porte "cave" branlante
-- [Trädgard] -> Couper Mélèze devant maison bleue
+- [Trädgard] -> Couper Genevrier devant maison bleue
 - [Trädgard] -> Débrousailler au dessus de la Stup
 - [Trädgard] -> Couper deux arbres sous le Dass
 - [Trädgard] -> Maison à oiseau à monter à côté de la maison rouge
@@ -109,13 +110,16 @@
 ## Questions
 
 - Agenda d'occupation?
-- Frais de ménage, taxe d'habitation?
-- Relevage du compteur eau?
-- Chauffe-eau pression générale ??
-
+- Frais de ménage, taxe d'habitation -> ok
+- Relevage du compteur eau -> ok
+- Chauffe eau procédure -> 
 ## A faire pour ce site
 
 - Lister les chantiers récurrents
 - Ajouter les numéros utiles mis à jour
 - Prendre et ajouter des photos descriptives
 - Procédure d'utilisation des machines à laver
+
+Wih = la grande maison
+Friggan = maison rouge
+vedbodden = vidbodden
