@@ -17,7 +17,7 @@
 ## Informations générales
 
 - Electricité enclenchée toute l'année.
-- Une clé commune pour toutes les maison du bas; une clé pour chacun des deux appartement du Knarpen.
+- Une clé commune pour toutes les maisons du bas; une clé pour chaque appartement du Knarpen.
 - Attention de ne pas chuter dans le précipice (Stup)!
 
 ## Mise en marche
@@ -91,4 +91,31 @@
 - Rentrer les plantes en pot à l'intérieur de la maison bleue.
 - Purger le tuyau d'arrosage.
 
+## Chantiers à faire
 
+- [Knarpen] -> fuite d'eau chaude
+- [Knarpem] -> porte "cave" branlante
+- [Trädgard] -> Couper Mélèze devant maison bleue
+- [Trädgard] -> Débrousailler au dessus de la Stup
+- [Trädgard] -> Couper deux arbres sous le Dass
+- [Trädgard] -> Maison à oiseau à monter à côté de la maison rouge
+- [Blatt Hus] -> Réparer la panne sur toit plat (Sud); besoin : taquet 5x10cm + vis + perceuse
+- [Blatt Hus] -> Enlever le cable (tv?) traversant le mur Nord de la cuisine
+- [Blatt Hus] -> Réparer la porte entre cuisine et couloir
+- [Blatt Hus] -> Rajouter un crochet dans la cuisine
+- [Vidboden] -> Assembler les têtes de haches sur manche
+- [Vidboden] -> Vérifier et lister les machines + outils
+
+## Questions
+
+- Agenda d'occupation?
+- Frais de ménage, taxe d'habitation?
+- Relevage du compteur eau?
+- Chauffe-eau pression générale ??
+
+## A faire pour ce site
+
+- Lister les chantiers récurrents
+- Ajouter les numéros utiles mis à jour
+- Prendre et ajouter des photos descriptives
+- Procédure d'utilisation des machines à laver

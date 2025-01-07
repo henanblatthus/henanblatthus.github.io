@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    display: flex;
+    display: column;
     flex-direction: row;
     align-items: center; /* Vertically align items */
     justify-content: space-between; /* Spread items evenly */
@@ -14,13 +14,29 @@ body {
     padding: 10px;
     background-color: #3787ff;
 }
-
+.section {
+    padding: 50px 50px 50px 50px;
+}
 #logo {
     width: 50%; /* Take 50% of the header width */
     display: flex; /* Ensure content inside #logo is aligned properly */
     align-items: center;
 }
+#prelude {
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange items in a row */
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center items horizontally */
+    padding: 10px; /* Add padding around the container */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
 
+#prelude img {
+    max-width: calc(50% - 20px); /* Ensure images take up half the container width minus padding */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Add padding around each image */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
 #logo img {
     max-width: 100%; /* Scale the logo properly within its container */
     height: auto; /* Maintain aspect ratio */
