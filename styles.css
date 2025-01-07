@@ -1,3 +1,27 @@
+/* Responsive styles for desktop and mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: flex-start; /* Align items to the start */
+    }
+    #logo, #title {
+        width: 100%; /* Take full width on mobile */
+        text-align: center; /* Center align text */
+    }
+    #title {
+        font-size: 40px; /* Reduce font size on mobile */
+    }
+    .section {
+        padding: 20px; /* Reduce padding on mobile */
+    }
+    #prelude {
+        flex-direction: column; /* Stack items vertically on mobile */
+    }
+    #prelude img {
+        max-width: 100%; /* Ensure images take full width on mobile */
+        padding: 5px; /* Reduce padding on mobile */
+    }
+}
 body {
     margin: 0;
     padding: 0;
