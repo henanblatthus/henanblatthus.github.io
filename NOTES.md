@@ -2,9 +2,9 @@
 
 ## Numéros Utiles
 
-- 1177 -> Urgence **pour demander quel hôpital est ouvert en fonction accident**
-- 112 -> Ambulance
-
+- 1177 -> Informations en cas de problème médical; pour savoir qui appeler et où aller.
+- 112 -> Ambulance; en cas d'urgence immédiate.
+- +46
 ## Evacuation des déchets
 
 **Respectez religieuseument le tri des déchets dans les poubelles car les éboueurs ne les débarrasent pas s'ils remarquent le contraire.**
