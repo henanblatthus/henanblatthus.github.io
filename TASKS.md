@@ -1,0 +1,40 @@
+- [ ] TASK | WHERE | WHAT | HOW
+
+- [ ] faire clés et assembler 2 nouveaux trousseaux | général | administration
+- [ ] peinture fenêtres | blatthus 1er | peinture
+- [ ] peinture derrière cuisinière | blatthus rez | peinture
+- [x] ranger les armoires | blatthus | rangement
+- [ ] lister et étiqueter les armoires | blatthus | administration
+- [ ] lister et étiqueter les outils électriques/importants  | blatthus,vebodden | administration
+- [ ] peindre local | vebodden | peinture
+- [x] enlever l'antenne T.V | blatthus toit | bricolage
+- [x] faîtière abîmée | blatthus toit | bricolage
+- [ ] girouette qui grince | blatthus toit | bricolage
+- [x] vendre moteur 2cv | autre | administration
+- [x] couper la forêt + arranger les dêchets | jardin médian | jardinage
+- [ ] couper la forêt + arranger les dêchets | jardin supérieur | jardinage
+- [ ] couler des fondations | sjömanshus | bricolage
+- [x] finir la tonte | jardin médian | jardinage
+- [ ] peindre tabouret + chaise | blatthus | peinture
+- [ ] reparer chaises véranda | blatthus | bricolage
+- [ ] installer une boîte aux lettres | jardin | bricolage
+- [x] stocker bois intéressant sous l'abri | jardin | jardinage
+- [ ] réparer l'abri | jardin  | bricolage
+- [ ] réparer l'escalier de la cave | blatthus cave | bricolage | 560x175[mm] * 7
+- [x] finir nettoyage | knarpen | nettoyage
+- [ ] attacher chaise à l'extérieur | knarpen | bricolage
+- [x] finir nettoyage + ranger et trier le chni | frigan | nettoyage
+- [x] rèparer le banc | jardin | bricolage
+- [ ] ranger et organiser | vebodden | administration
+- [ ] couper autour de la clôture | jardin supérieur | jardinage
+- [x] installer étendage | cw8 jardin | bricolage
+- [x] réparer table | cw8 | bricolage
+- [ ] traduire et imprimer les règles | cw8 | administration
+- [x] désherber le jardin | cw8 | jardinage
+- [x] tuer les guêpes | cw8 | intendance
+- [ ] laver les vitres | cw8 | nettoyage
+- [ ] préparer draps pour chaque lits | cw8 | intendance
+- [x] putzer autour du feu | blatthus jardin médian | jardinage
+- [ ] putzer platebande sous véranda | blatthus jardin médian | jardinage
+- [ ] refaire balcon de la véranda | blatthus 1er | bricolage
+- [ ] acheter lits pour Knarpen B

@@ -1,0 +1,11 @@
+# Choses à acheter pour bricoler
+- [] scie sauteuse
+- [] jeu de douilles avec cliquet
+- [] meûle à aiguser rotative
+- [] outils réparartion vélo -> pince d'accroche, chambre à air, rustine, ...
+- [] rice cooker
+- [] air fryer
+- [] couteau de cuisine
+- [] passoire
+- [] grille pain
+- [] 

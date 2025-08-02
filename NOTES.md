@@ -1,4 +1,10 @@
+
 # Notes
+## Association suédoise -> ```https://www.skatteverket.se/foreningar/driva/ideellforening/startaenideellforening.4.70ac421612e2a997f85800028338.html```
+## Feu
+
+- Vérifier si interdiction de faire des feux -> https://www.krisinformation.se/en/hazards-and-risks/gras--och-skogsbrand/fire-bans
+
 
 ## Numéros Utiles
 
@@ -114,7 +120,7 @@
 - Relevage du compteur eau -> ok
 - Chauffe eau procédure -> 
 ## A faire pour ce site
-
+blatthus.github.io
 - Lister les chantiers récurrents
 - Ajouter les numéros utiles mis à jour
 - Prendre et ajouter des photos descriptives
@@ -123,3 +129,16 @@
 Wih = la grande maison
 Friggan = maison rouge
 vedbodden = vidbodden
+
+Semaine famille -> dernière semaine de juillet et première semaine d'août
+
+## Tâches annuelles
+- Nettoyer les gouttières
+-> nettoyer le filtre douche
+-> nettoyer l'évacuation chauffe-eau
+- Nettoyer derrière la cuisinière
+
+## remarques
+
+-> vitre véranda taille non standard
+- manque extincteur dans blatthus, frigan and knarpen

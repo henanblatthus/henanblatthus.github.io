@@ -1,27 +1,43 @@
 /* Responsive styles for desktop and mobile */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stack items vertically on mobile */
-        align-items: flex-start; /* Align items to the start */
+        flex-direction: column;
+        /* Stack items vertically on mobile */
+        align-items: flex-start;
+        /* Align items to the start */
     }
-    #logo, #title {
-        width: 100%; /* Take full width on mobile */
-        text-align: center; /* Center align text */
-    }
+
+    #logo,
     #title {
-        font-size: 40px; /* Reduce font size on mobile */
+        width: 100%;
+        /* Take full width on mobile */
+        text-align: center;
+        /* Center align text */
     }
+
+    #title {
+        font-size: 40px;
+        /* Reduce font size on mobile */
+    }
+
     .section {
-        padding: 20px; /* Reduce padding on mobile */
+        padding: 20px;
+        /* Reduce padding on mobile */
     }
+
     #prelude {
-        flex-direction: column; /* Stack items vertically on mobile */
+        flex-direction: column;
+        /* Stack items vertically on mobile */
     }
+
     #prelude img {
-        max-width: 100%; /* Ensure images take full width on mobile */
-        padding: 5px; /* Reduce padding on mobile */
+        max-width: 100%;
+        /* Ensure images take full width on mobile */
+        padding: 5px;
+        /* Reduce padding on mobile */
     }
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -32,44 +48,275 @@ body {
 .container {
     display: column;
     flex-direction: row;
-    align-items: center; /* Vertically align items */
-    justify-content: space-between; /* Spread items evenly */
-    flex-wrap: nowrap; /* Prevent wrapping */
-    padding: 10px;
+    align-items: center;
+    /* Vertically align items */
+    justify-content: space-between;
+    /* Spread items evenly */
+    flex-wrap: nowrap;
+    /* Prevent wrapping */
+    width: 80%;
     background-color: #3787ff;
 }
+
 .section {
-    padding: 50px 50px 50px 50px;
+    padding: 100px;
 }
+
 #logo {
-    width: 50%; /* Take 50% of the header width */
-    display: flex; /* Ensure content inside #logo is aligned properly */
+    width: 50%;
+    /* Take 50% of the header width */
+    display: flex;
+    /* Ensure content inside #logo is aligned properly */
     align-items: center;
 }
+
 #prelude {
-    display: flex; /* Use flexbox layout */
-    flex-direction: row; /* Arrange items in a row */
-    align-items: center; /* Vertically align items */
-    justify-content: center; /* Center items horizontally */
-    padding: 10px; /* Add padding around the container */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    display: flex;
+    /* Use flexbox layout */
+    flex-direction: row;
+    /* Arrange items in a row */
+    align-items: center;
+    /* Vertically align items */
+    justify-content: center;
+    /* Center items horizontally */
+    padding: 10px;
+    /* Add padding around the container */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
 }
 
 #prelude img {
-    max-width: calc(50% - 20px); /* Ensure images take up half the container width minus padding */
-    height: auto; /* Maintain aspect ratio */
-    padding: 10px; /* Add padding around each image */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    max-width: calc(50% - 20px);
+    /* Ensure images take up half the container width minus padding */
+    height: auto;
+    /* Maintain aspect ratio */
+    padding: 10px;
+    /* Add padding around each image */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
 }
+
 #logo img {
-    max-width: 100%; /* Scale the logo properly within its container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Scale the logo properly within its container */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 #title {
-    width: 50%; /* Take 50% of the header width */
-    text-align: center; /* Align text to the right */
-    margin: 0; /* Remove margin */
+    width: 50%;
+    /* Take 50% of the header width */
+    text-align: center;
+    /* Align text to the right */
+    margin: 0;
+    /* Remove margin */
     font-size: 60px;
     color: white;
+}
+
+.foldable-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.foldable-title {
+    background: #f0f0f0;
+    cursor: pointer;
+    padding: 12px 18px;
+    font-weight: bold;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.foldable-title:hover {
+    background: #e0e0e0;
+}
+
+.foldable-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s;
+    padding: 0 18px;
+    background: #fafafa;
+}
+
+.foldable-section.open .foldable-content {
+    max-height: 200px;
+    padding: 12px 18px;
+}
+
+.foldable-indicator {
+    margin-right: 10px;
+    transition: transform 0.4s;
+}
+
+/* Main container: centered, responsive, optimal ratio */
+#wrapper {
+    max-width: 1100px;
+    margin: 40px auto 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px 0 rgba(0,0,0,0.10), 0 1.5px 6px 0 rgba(0,0,0,0.08);
+    padding: 32px 0;
+    min-height: 60vh;
+    transition: box-shadow 0.3s;
+}
+
+/* Header styles */
+#header {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 24px auto;
+    background: linear-gradient(90deg, #3787ff 60%, #5ebfff 100%);
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+    background: #fff;
+    padding: 8px;
+}
+
+#title {
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+/* Section normalization */
+.section {
+    background: #f8faff;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 1.5px 6px 0 rgba(0,0,0,0.05);
+    padding: 48px 32px;
+    transition: box-shadow 0.2s;
+}
+
+.section h2 {
+    color: #3787ff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.section img {
+    border-radius: 8px;
+    box-shadow: 0 1.5px 6px 0 rgba(0,0,0,0.07);
+    margin-bottom: 18px;
+    background: #fff;
+}
+
+/* Foldable section normalization */
+.foldable-section {
+    background: #eaf3ff;
+    border: 1.5px solid #b7d6ff;
+    border-radius: 10px;
+    margin: 28px 0;
+    box-shadow: 0 1.5px 6px 0 rgba(55,135,255,0.07);
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+}
+
+.foldable-title {
+    background: linear-gradient(90deg, #eaf3ff 80%, #d2eaff 100%);
+    color: #3787ff;
+    cursor: pointer;
+    padding: 16px 22px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1.1em;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b7d6ff;
+    transition: background 0.2s;
+}
+
+.foldable-title:hover {
+    background: #d2eaff;
+}
+
+.foldable-indicator {
+    margin-right: 12px;
+    font-size: 1.2em;
+    color: #3787ff;
+    transition: transform 0.4s;
+}
+
+.foldable-section.open .foldable-indicator {
+    transform: rotate(90deg);
+}
+
+.foldable-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s;
+    padding: 0 22px;
+    background: #fafdff;
+    color: #222;
+    font-size: 1em;
+}
+
+.foldable-section.open .foldable-content {
+    max-height: 300px;
+    padding: 18px 22px;
+}
+
+/* Footer styles */
+#footer {
+    width: 100%;
+    max-width: 1100px;
+    margin: 32px auto 0 auto;
+    background: linear-gradient(90deg, #3787ff 60%, #5ebfff 100%);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -2px 12px 0 rgba(0,0,0,0.07);
+    padding: 18px 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    #wrapper, #header, #footer {
+        max-width: 98vw;
+    }
+}
+@media (max-width: 900px) {
+    .section, #header, #footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section {
+        padding: 32px 10px;
+    }
+}
+@media (max-width: 768px) {
+    #wrapper, #header, #footer {
+        max-width: 100vw;
+        border-radius: 0;
+        margin: 0;
+    }
+    .section {
+        padding: 20px 4px;
+        margin-bottom: 18px;
+    }
+    #header, #footer {
+        padding: 12px 0;
+    }
 }

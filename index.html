@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="header" class="container">
+        <div id="header" class="container"></div>
             <div id="logo">
                 <img src="resources/logo.png" alt="Logo" width="128" height="128">
             </div>
@@ -13,29 +13,68 @@
         </div>
 
         <div id="wrapper" class="container">
-            <div id="prelude" class="section">
-                <img src="resources/processed_images/henan_house_exterior_1_processed.webp" width="100%" height="100%">
-                <img src="resources/processed_images/henan_house_exterior_2_processed.webp" width="100%" height="100%">
+            <!-- Prelude Foldable -->
+            <div class="foldable-section" id="foldable-prelude">
+                <div class="foldable-title">
+                    <span class="foldable-indicator">&#9654;</span>
+                    Photos extérieures
+                </div>
+                <div class="foldable-content">
+                    <img src="resources/processed_images/henan_house_exterior_1_processed.webp" width="100%" height="100%">
+                    <img src="resources/processed_images/henan_house_exterior_2_processed.webp" width="100%" height="100%">
+                </div>
             </div>
-            <div id="map" class="section">
-                <h2>Plan de la propriété</h2>
-                <img src="resources/henan_property_map_legend.png" width="100%" height="100%">
+            <!-- Map Foldable -->
+            <div class="foldable-section" id="foldable-map">
+                <div class="foldable-title">
+                    <span class="foldable-indicator">&#9654;</span>
+                    Plan de la propriété
+                </div>
+                <div class="foldable-content">
+                    <h2>Plan de la propriété</h2>
+                    <img src="resources/henan_property_map_legend.png" width="100%" height="100%">
+                </div>
             </div>
-            <div id="water" class="section">
-                <img src="resources/water.svg" width="100px" height="100px">
-                <h2>Ouverture et fermeture de l'eau</h2>
-                <p style="font-weight: bold;">Barre à mine et tige pour ouvrir la bouche d'égoût dans la maison rouge</p>
-                <img src="resources/eau_general.png" width="100%" height="100%">
+            <!-- Water Foldable -->
+            <div class="foldable-section" id="foldable-water">
+                <div class="foldable-title">
+                    <span class="foldable-indicator">&#9654;</span>
+                    Ouverture et fermeture de l'eau
+                </div>
+                <div class="foldable-content">
+                    <img src="resources/water.svg" width="100px" height="100px">
+                    <h2>Ouverture et fermeture de l'eau</h2>
+                    <p style="font-weight: bold;">Barre à mine et tige pour ouvrir la bouche d'égoût dans la maison rouge</p>
+                    <img src="resources/eau_general.png" width="100%" height="100%">
+                </div>
             </div>
-            <div id="machines" class="section">
-                <h2>Machines à laver</h2>
-                <img src="resources/processed_images/henan_washing_machine_1_processed.webp" width="100%" height="100%">
-                <img src="resources/processed_images/henan_washing_machine_2_processed.webp" width="100%" height="100%">
+            <!-- Machines Foldable -->
+            <div class="foldable-section" id="foldable-machines">
+                <div class="foldable-title">
+                    <span class="foldable-indicator">&#9654;</span>
+                    Machines à laver
+                </div>
+                <div class="foldable-content">
+                    <h2>Machines à laver</h2>
+                    <img src="resources/processed_images/henan_washing_machine_1_processed.webp" width="100%" height="100%">
+                    <img src="resources/processed_images/henan_washing_machine_2_processed.webp" width="100%" height="100%">
+                </div>
+            </div>
+            <!-- Example Foldable Section -->
+            <div class="foldable-section" id="foldable1">
+                <div class="foldable-title">
+                    <span class="foldable-indicator">&#9654;</span>
+                    Section repliable (On/Off)
+                </div>
+                <div class="foldable-content">
+                    <p>Contenu de la section repliable. Cliquez sur le titre pour ouvrir ou fermer cette section.</p>
+                </div>
             </div>
         </div>
 
         <div id="footer" class="container">
             <!-- Add footer content here -->
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
